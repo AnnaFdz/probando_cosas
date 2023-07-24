@@ -1,0 +1,68 @@
+.banner{
+    background-image: url("./img/banner6.png");
+    height: 300px;
+    padding: 60;
+    text-align: center;
+    background-image: no-repeat ;
+    background-size: cover;
+    
+}
+h1#intro{
+    color: aliceblue;
+    -webkit-text-stroke: 3px black;
+  
+}
+
+.banner-container {
+    background-image: url("./img/fondoAzul.png");
+}
+.carousel-image {
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+.cards-wrapper {
+    display: flex;
+}
+.card {
+    margin: 0 0.5em;
+    width: calc(100% / 3);
+}
+.carousel {
+    width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* .carousel-control-prev-icon{
+    background-color: #ffc500;
+    
+}
+.carousel-control-next-icon{
+    background-color: #ffc500;
+    
+} */
+.carousel-control-prev{
+    width: auto;
+    
+}
+.carousel-control-next{
+    width: auto;
+    
+}
+.carousel-inner{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.titulo-principal {
+    font-size: 48px;
+    font-weight: 700;
+    color: #156669;
+}
+.image-wrapper {
+    height: 22vw;
+}
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
